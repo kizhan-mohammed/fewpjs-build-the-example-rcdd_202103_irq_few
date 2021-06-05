@@ -21,7 +21,7 @@ const heart = node => {
 }
 
 window.addEventListener("click", e => {
-  if(e.target.textContent === EMPTY_HEART) modal(e.target);
+  if(e.target.textContent === EMPTY_HEART) heart(e.target);
 })
 
 
