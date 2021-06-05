@@ -10,7 +10,7 @@ const errorHide = () => {
 }
 errorHide();
 
-const like = node => {
+const heart = node => {
   mimicServerCall().then(() => {
     node.innerText = FULL_HEART;
     node.classList.add("activated-heart").catch(err => {
