@@ -4,7 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-const hidem = () => {
+const hideErrorMsg = () => {
   const errorModal = document.getElementById("modal");
   errorModal.classList.add("hidden");
 }
