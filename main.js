@@ -5,7 +5,7 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 
 const errorHide = () => {
-  const errorModal = document.getElementById("modal");
+  const modal = document.getElementById("modal");
   errorModal.classList.add("hidden");
 }
 errorHide();
