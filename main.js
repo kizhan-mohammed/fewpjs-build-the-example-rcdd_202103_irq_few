@@ -8,14 +8,14 @@ const errorHide = () => {
   const errorModal = document.getElementById("modal");
   errorModal.classList.add("hidden");
 }
-hideErrorMsg();
+errorHide();
 
 const like = node => {
   mimicServerCall().then(() => {
     node.innerText = FULL_HEART;
     node.classList.add("activated-heart").catch(err => {
-      hideErrorMsg();
-      window.setTimeout(hideErrorMsg, 3000);
+      errorHide();
+      window.setTimeout(errorHide, 3000);
     });
   })
 }
